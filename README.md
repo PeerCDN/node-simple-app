@@ -1,6 +1,6 @@
 # node-simple-app
 
-node-simple-app provides a solid app template that follows best practices and
+node-simple-app provides a solid and secure app template that follows best practices and
 requires no additional installs. It adds authentication using LevelDB on top of
 Express and provides handy Jade templates for the auth forms.
 
