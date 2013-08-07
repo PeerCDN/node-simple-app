@@ -1,0 +1,21 @@
+extends base
+
+block head
+  title _app_ — Register
+
+block content
+  h1 Register for _app_
+
+  ul.error-msgs
+   each msg in messages
+    li.error-msg= msg
+
+  div#login
+    form(method='POST')
+      span email
+      input#email(type='text', name='username')
+      span password
+      input#password(type='password', name='password')
+      span website
+      input#website(type='text', name='website')
+      input#submit(type='submit', value='submit')

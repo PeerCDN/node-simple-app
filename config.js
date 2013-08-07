@@ -1,0 +1,1 @@
+exports.rootPath = __dirname

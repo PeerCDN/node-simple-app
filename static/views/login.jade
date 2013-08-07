@@ -1,0 +1,19 @@
+extends base
+
+block head
+  title _app_ — Login
+
+block content
+  h1 Login to _app_
+
+  ul.error-msgs
+   each msg in messages
+    li.error-msg= msg
+
+  div#login
+    form(method='POST')
+      span email
+      input#email(type='text', name='username')
+      span password
+      input#password(type='password', name='password')
+      input#submit(type='submit', value='submit')

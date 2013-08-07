@@ -1,0 +1,18 @@
+doctype 5
+html
+  head
+    link(rel='stylesheet', type='text/css', href='/css/normalize.css')
+    link(rel='stylesheet', type='text/css', href='/css/index.css')
+    script(type='text/javascript', src='/components/jquery/jquery.js')
+    script(type='text/javascript', src='/components/underscore/underscore.js')
+    block head
+  body
+    #navbar
+      h2.logo _app_
+      #user-nav
+        if user
+          a#logout(href='javascript:void(0)') logout
+        else
+          a(href='/login') login
+          a(href='/register') register
+    block content

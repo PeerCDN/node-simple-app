@@ -1,0 +1,64 @@
+body {
+  font-size: 14px;
+  font-family: 'proxima-nova', 'Helvetica';
+  margin: 0px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #A60000;
+}
+
+a:hover {
+  border-bottom: 1px solid #A60000;
+  color: #333;
+}
+
+/* User elements */
+
+#navbar {
+  border-bottom: 1px solid black;
+}
+
+#navbar h2 {
+  width: auto;
+  display: inline-block;
+}
+
+#navbar #user-nav {
+  float: right;
+  margin-top: 20px;
+}
+
+#navbar #user-nav a {
+  display: inline-block;
+  padding-right: 10px;
+  margin-left: 10px;
+  border-right: 1px solid black;
+}
+
+#navbar #user-nav a:last-child {
+  border-right: 0px;
+  padding-right: 0px;
+}
+
+h1.logo {
+  margin: 40px 0px 70px 0px;
+  font-weight: 100;
+  font-size: 28px;
+  color: #A60000;
+}
+
+/* Login/register pages */
+
+ul.error-msgs {
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+li.error-msg {
+  list-style-type: none;
+  border: 1px solid red;
+  background: #DDD;
+  padding: 5px;
+}

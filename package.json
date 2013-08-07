@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "node-simple-app",
+  "version": "0.1.0",
+  "description": "Simple Express-based web app with authentication support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeerCDN/node-simple-app"
+  },
+  "dependencies": {
+    "bcrypt": "~0.7.6",
+    "connect-flash": "~0.1.1",
+    "debug": "~0.7.2",
+    "express": "3.x",
+    "express-validator": "~0.7.0",
+    "jade": "0.32.x",
+    "level": "0.12.x",
+    "marked": "0.2.x",
+    "passport": "0.1.x",
+    "passport-local": "0.1.x"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "bower": "0.9.x"
+  },
+  "keywords": [],
+  "author": "Abi Raja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeerCDN/node-simple-app/issues"
+  }
+}
