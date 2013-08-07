@@ -1,21 +1,23 @@
-node-simple-app is a template that provides with authentication pages on top
-of Express. It follows security best practices.
+# node-simple-app
+
+node-simple-app provides a solid app template that follows best practices and
+requires no additional installs. It adds authentication using LevelDB on top of
+Express and provides handy Jade templates for the auth forms.
 
 ## Quick Start
 
-* Fork this repo
-* `make update-deps`
-* `make`
-* Search and replace the string "_app_"
-* Additionally, you'd have to modify package.json as you see fit.
+1. Fork this repo
+1. `make update-deps`
+1. `make`
+1. Search and replace the string '_app_'. Additionally, you'd have to modify package.json as you see fit.
 
 ## Features
 
-* POST /logout
+* No database installation (uses LevelDB)
+* No global package installs (dev deps are installed locally)
 * Includes commonly used Express middleware
-* User authentication with simple Jade templates for login and register pages
+* User auth with simple Jade templates for login and register pages
 * Passwords stored in LevelDB hashed with bcrypt
-* Cookies are signed with secret
 * Bower setup with jquery and underscore
 
 ## TODO
