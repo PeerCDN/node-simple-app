@@ -22,10 +22,7 @@ Express and provides handy Jade templates for the auth forms.
 
 ## TODO
 
-* Extending without modifying lib/SimpleApp.js
-* Namespace levelDb with user prefix
 * "Error: Forbidden" should not print to screen
-* Figure out where to log
 * Make bower actually work
 * Add some tests (use PhantomJS)
   * Add Travis
