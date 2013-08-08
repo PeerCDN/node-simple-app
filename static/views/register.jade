@@ -10,8 +10,9 @@ block content
    each msg in messages
     li.error-msg= msg
 
-  div#login
+  div#register
     form(method='POST')
+      input(type='hidden', name='_csrf', value=token)
       .field
         label email
         input#email(type='text', name='username')

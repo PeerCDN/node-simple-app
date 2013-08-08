@@ -12,6 +12,8 @@ html
         a(href='/') _app_
       #user-nav
         if user
+          script.
+            var _csrf = '#{token}'
           a#logout(href='javascript:void(0)') logout
         else
           a(href='/login') login
