@@ -1,7 +1,7 @@
 
 .PHONY : default
 default:
-	./node_modules/.bin/nodemon .
+	DEBUG="*,-connect:*,-express:*" ./node_modules/.bin/nodemon .
 
 .PHONY : update-deps
 update-deps:
@@ -12,4 +12,3 @@ update-deps:
 .PHONY : test
 test:
 	./node_modules/.bin/mocha
-
