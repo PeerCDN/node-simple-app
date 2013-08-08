@@ -4,6 +4,8 @@ body {
   margin: 0px 50px;
 }
 
+/* Links */
+
 a {
   text-decoration: none;
   color: #A60000;
@@ -14,10 +16,38 @@ a:hover {
   color: #333;
 }
 
+/* Headers */
+
+h1 {
+  margin-bottom: 50px;
+}
+
+/* Forms */
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  float: left;
+  width: 100px;
+}
+
+.field input {
+  width: 200px;
+}
+
+.field #submit {
+  margin-top: 20px;
+  margin-left: 250px;
+  width: auto;
+}
+
 /* User elements */
 
 #navbar {
   border-bottom: 1px solid black;
+  margin-bottom: 50px;
 }
 
 #navbar h2 {
@@ -42,12 +72,16 @@ a:hover {
   padding-right: 0px;
 }
 
+/* Logo */
+
 h1.logo {
   margin: 40px 0px 70px 0px;
   font-weight: 100;
   font-size: 28px;
   color: #A60000;
 }
+
+
 
 /* Login/register pages */
 

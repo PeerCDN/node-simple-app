@@ -12,8 +12,11 @@ block content
 
   div#login
     form(method='POST')
-      span email
-      input#email(type='text', name='username')
-      span password
-      input#password(type='password', name='password')
-      input#submit(type='submit', value='submit')
+      .field
+        label email
+        input#email(type='text', name='username')
+      .field
+        label password
+        input#password(type='password', name='password')
+      .field
+        input#submit(type='submit', value='submit')
