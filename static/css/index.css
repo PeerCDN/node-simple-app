@@ -61,14 +61,18 @@ h1 {
 
 #navbar #user-nav a {
   display: inline-block;
-  padding-right: 10px;
-  margin-left: 10px;
-  border-right: 1px solid black;
+  margin: 0 10px;
 }
 
 #navbar #user-nav a:last-child {
   border-right: 0px;
-  padding-right: 0px;
+  margin-right: 0px;
+}
+
+#navbar .divider {
+  display: inline-block;
+  border-left: 1px solid black;
+  padding: 0px;
 }
 
 /* Logo */
