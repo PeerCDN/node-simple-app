@@ -22,7 +22,6 @@ Express and provides handy Jade templates for the auth forms.
 
 ## TODO
 
-* Better forms
 * XSRF
 * Extending without modifying lib/SimpleApp.js
 * Nicer styles

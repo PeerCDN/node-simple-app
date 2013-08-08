@@ -47,7 +47,6 @@ h1 {
 
 #navbar {
   border-bottom: 1px solid black;
-  margin-bottom: 50px;
 }
 
 #navbar h2 {
@@ -74,14 +73,20 @@ h1 {
 
 /* Logo */
 
-h1.logo {
-  margin: 40px 0px 70px 0px;
+h2.logo {
+  font-size: 18px;
   font-weight: 100;
-  font-size: 28px;
+  margin: 15px 0px 15px 0px;
+}
+
+h2.logo a {
   color: #A60000;
 }
 
-
+h2.logo a:hover {
+  border-bottom: 0px;
+  color: #A60000;
+}
 
 /* Login/register pages */
 
