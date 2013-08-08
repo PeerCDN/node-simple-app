@@ -22,9 +22,9 @@ Express and provides handy Jade templates for the auth forms.
 
 ## TODO
 
-* XSRF
-* Extending without modifying lib/SimpleApp.js
 * Nicer styles
+* Error: Forbidden should not print to screen
+* Extending without modifying lib/SimpleApp.js
 * Figure out where to log
 * Make bower actually work
 * Add some tests (use PhantomJS)
