@@ -1,7 +1,7 @@
 
 .PHONY : default
 default:
-	DEBUG="*,-connect:*,-express:*" ./node_modules/.bin/nodemon .
+	DEBUG="*,-connect:*,-express:*,-send" ./node_modules/.bin/nodemon .
 
 .PHONY : update-deps
 update-deps:
